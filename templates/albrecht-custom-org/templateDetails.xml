@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "https://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+	<name>albrecht-custom</name>
+	<creationDate>01.04.2020</creationDate>
+	<author>Stefan Wruck</author>
+	<authorEmail>info@getwebbed.org</authorEmail>
+	<authorUrl>getwebbed.org</authorUrl>
+	<copyright>Stefan Wruck</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.2</version>
+	<description>albrecht-custom</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>images</folder>
+		<folder>css</folder>
+	</files>
+	<positions>
+		<position>breadcrumb</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>menu</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>footer</position>
+	</positions>
+</extension>
