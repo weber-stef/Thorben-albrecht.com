@@ -1,0 +1,87 @@
+ADOBE INDESIGN - DRUCKANLEITUNGEN FÜR BELICHTUNGSBÜROBERICHT
+
+SATZDATEINAME: ThorbenAlbrecht-Design-1.indd
+
+PACKDATUM: 21.01.2020 19:10
+Erstellungsdatum 21.01.2020
+Änderungsdatum: 21.01.2020
+
+AUFTRAGGEBER
+
+Firma: 
+Ansprechpartner: 
+Adresse: 
+
+
+
+
+
+Telefon: 
+Fax: 
+E-Mail: 
+
+BESONDERE ANWEISUNGEN UND ANDERE ANMERKUNGEN
+
+
+
+
+
+
+Externe Zusatzmodule 0
+Nicht deckende Objekte:Auf Seite1
+
+SCHRIFTARTEN
+3 Schriftart(en) verwendet; 0 fehlend, 0 eingebettet, 0 unvollst., 0 geschützt
+
+Schriftarten verpackt
+- Name: PTSans-Regular; Typ: OpenType TrueType, Status: OK
+- Name: Times-Roman; Typ: TrueType, Status: OK
+- Name: Ubuntu-Regular; Typ: OpenType TrueType, Status: OK
+
+
+FARBEN UND DRUCKFARBEN
+4 Prozessfarbe(n); 0 Volltonfarbe(n)
+
+- Name und Typ: Prozessfarbe Cyan; Winkel: 71,565; Linien/Zoll: 63,245
+- Name und Typ: Prozessfarbe Magenta; Winkel: 18,434; Linien/Zoll: 63,245
+- Name und Typ: Prozessfarbe Gelb; Winkel: 0,000; Linien/Zoll: 66,666
+- Name und Typ: Prozessfarbe Schwarz; Winkel: 45,000; Linien/Zoll: 70,710
+
+
+VERKNÜPFUNGEN UND BILDER
+(Nur fehlende & eingebettete Verknüpfungen)
+Verknüpfungen und Bilder: 3 Verknüpfung(en) gefunden; 0 geändert, 0 fehlend
+Bilder: 0 eingebettet, 3 verwenden RGB-Farbraum
+
+
+DRUCKEINSTELLUNGEN
+PPD: Adobe PDF 9.0, (Adobe PDF)
+Druckausgabe: Drucker
+Anzahl der Exemplare: 1
+Druckbögen: Nein
+Gerade/Ungerade Seiten: Beides
+Seiten: Alle
+Probedruck: Nein
+Druckseite aufteilen: Ohne
+Skalieren: 100 %, 100 %
+Seitenposition: Oben links
+Ebenen drucken: Sichtbare und druckbare Ebenen
+Druckermarken: Ohne
+Anschnitt: 0 mm, 0 mm, 0 mm, 0 mm
+Farbe: Composite-CMYK
+Überfüllungsmodus: Ohne
+Bilddaten senden: Optimierte Abtastauflösung
+OPI/DCS-Bildersetzung: Nein
+Seitenformat: Benutzerdefiniert: 560 mm x 360 mm
+Papierabmessungen: 209,98 mm x 297,039 mm
+Format: Querformat
+Negativ: Nein
+Spiegelmodus: Aus
+
+
+DATEIPAKETLISTE
+
+1. ThorbenAlbrecht-Design-1.indd; Typ: Adobe InDesign-Satzdatei; Größe: 1904K
+2. PT Sans regular.ttf; Typ: Schriftartendatei; Größe: 432K
+3. TIRO.TTF; Typ: Schriftartendatei; Größe: 43K
+4. Ubuntu-Regular_0.ttf; Typ: Schriftartendatei; Größe: 343K

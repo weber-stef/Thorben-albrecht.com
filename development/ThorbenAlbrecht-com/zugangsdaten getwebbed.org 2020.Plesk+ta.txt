@@ -1,0 +1,300 @@
+zugangsdsaten getwebbed.org 2013
+
+Provider der Domainweiterleitung 
+ist 1&1, puretec
+Ku-Nr: 2918300 - Vertragsnummer 2689135
+0180 5 67 28 28 (14 ct/Min.)
+
+1&1 Internet AG
+Elgendorfer Str. 57
+56410 Montabaur
+
+Zugangsdaten Puretec: Kundenummer 2918300
+Passwort: Ich nutze 2018 1&1 als Provider!
+ In20181&1aP!
+
+
+Domain-Details
+Verwendungsart: Frame-Weiterleitung
+Ziel: http://vitatech-soundz.com/getwebbed.org.2014/index.php
+Typ: Zusatz-Domain
+Status: Aktiv
+Domain-Einstellungen bearbeiten
+
+
+Zugnag webhoster.de:
+
+Kunde: Wruck Stefan
+Account: web240
+Domain: vitatech-soundz.com
+
+
+Sehr geehrte Kundin,
+Sehr geehrter Kunde,
+
+Ihr neuer Webhoster Plesk Tarif ist jetzt aktiviert.
+
+Bitte notieren Sie sich folgende Logindaten an einem sicheren Ort:
+
+web-240
+Root-verezeichnis-Schutz:
+User: web240
+pwd: 8#c\k6.RSuW4~s^-Y2r3C~Ms+VC:x[Z5
+
+passwort für website-backup
+
+Ich habe 2020 alle Seiten gesichert!
+Ih2020aSg!
+
+
+===== Zugang zur Administrationsoberflaeche: =====
+getwebbed.org Zugang Webhoster.de
+
+Host: 			psa2.webhoster.ag
+Benutzername:           web240
+Passwort:               XzSzHYRhua9eQ?4FqGg!!T6UfMArwuhr
+
+URL für den Browser:    https://psa2.webhoster.ag:8443
+
+Servername/Hostname:    psa2.webhoster.ag
+                        (bitte bei allen Anfragen angeben)
+
+(wir empfehlen die Verwendung eines FTP Programms mit verschluesselter TLS
+Authentifizierung
+z.B. WS_FTP von http://www.ipswitch.com)
+
+
+
+
+===== eMail Informationen =====
+
+SMTP + POP3 + IMAP Server:     psa2.webhoster.ag
+
+Server fuer Verschluesselte Verbindung: psa2.webhoster.ag
+
+Postfachname:          z.B. Ihr.Name@<domain_name>
+
+Sie koennen Ihre eMails auch mit unserem Webmail Dienst abrufen oder schreiben.
+
+Der Spam-/Virusschutz ist serverseitig aktiviert. Bitte beachten Sie, dass es keinen
+100%igen Schutz gibt und oeffnen Sie nur vertrauenswuerdige eMailanhaenge.
+Bitte aktivieren Sie manuell in Ihrem Account den Spam und Virenschutz, wenn Sie ein
+Postfach anlegen.
+
+
+===== Weitere wichtige Informationen =====
+
+Datenbankhostname:      localhost
+
+Datenbankname:          <user_login>_Datenbankname (Beispiel)
+
+Datenbankpasswort:      koennen Sie bei der Erstellung vergeben
+
+Homeverzeichnis:        /var/www/vhosts/<domain_name>/httpdocs
+
+Startseite:             index.html oder index.php
+
+Uploadverzeichnis:      /httpdocs
+
+
+Sicherheitshinweis:
+
+Drucken Sie dieses Schreiben aus und verfahren Sie es an einem sicheren Ort. Aendern Sie
+das Passwort auf ein neues Passwort mit mind. 12 Zeichen. Loggen Sie in den Server nur
+ueber gesicherte Verbindung ein. Z.B. unter Verwendung von https anstelle von http wie
+oben angegeben.
+Verwenden Sie nur eine gesicherte FTP Verbindung resp. eine FTP Verbindung mit gesicherter
+
+Authentifizierung.
+Stellen Sie Ihre eMail Programme auf eine gesicherte Authentifizierung um.
+In allen anderen Faellen wird sonst Ihr Passwort im Klartext ueber das Internet verschickt
+und kann womoeglich abgefangen werden. Alle Dienste stehen von uns sowohl ungesichert als
+auch gesichert zur Verfuegung.
+
+
+=======================================================
+
+WICHTIGER HINWEIS FUER KUNDEN DIE PHP SCRIPTE VERWENDEN
+
+Wenn Sie Scripte wie phpBB, Joomla, Mambo, oder andere php Software auf dem Server
+installieren, muessen Sie darauf achten, dass Sie diese Software immer auf dem neuesten
+Stand
+halten. Es gibt nahezu woechentlich Sicherheitspatches
+fuer die entsprechenden Softwarepakete, die Sie einspielen  muessen.
+Besuchen Sie in dem Fall mindestens einmal in der Woche die Herstellerseite Ihrer Software
+und pruefen Sie, ob es einen entsprechenden Patch gibt.
+Letztendlich haften Sie fuer die Inhalte Ihres Accounts, auch wenn dieser von Dritten
+durch Sicherheitsloecher der Software missbraucht wurde.
+
+Von der Verwendung von Scripten, die zwingend php4 oder register_globals=on benoetigen
+raten wir dringend ab.
+
+=======================================================
+
+
+Bitte laden Sie sich die aktuellen Handbücher direkt von unserer Homepage
+http://www.webhoster.de herunter um weitere Funktionen kennen zu lernen.
+
+Es stehen Ihnen eine Vielzahl nützlicher Programme  zur Verfuegung. Bitte beachten Sie,
+dass Sie in den meisten Faellen vorher eine Datenbank anlegen muessen und notieren Sie
+sich bitte die notwendigen Fragen. Bitte ueberpruefen Sie auf der Herstellerseite die
+Versionsnummer und installieren Sie immer nur die jeweils aktuellste Version.
+
+Sie können jetzt mit einem FTP Programm Ihre Daten unter Angabe des Hostnames (oder Ihres
+Domainnamens),
+des Benutzernamens und des Passwortes auf den Server ueberspielen.
+
+Wenn Sie Ihre Website mit einem Webdesignprogramm uebertragen moechten, achten Sie bitte
+darauf
+das Uploadverzeichnis /httpdocs anzugeben. Bitte beachten Sie auch, dass unter Linux auf
+zwischen
+klein- und grossgeschriebenen Zeichen unterschieden wird.
+
+In der Administrationsoberflaeche koennen Sie alle weiteren Einstellungen vornehmen.
+
+Unter der URL: http://www.webhoster.info
+
+erhalten Sie eine kleine Hilfe fuer die benoetigten eMail Einstellungen z.B. bei Outlook.
+
+Für Rückfragen stehen wir Ihnen per eMail unter service@webhoster.ag zur Verfügung.
+Wenn Sie telefonischen Support benötigen erreichen Sie uns unter 02924 - 879560
+
+Bitte geben Sie bei jeder Anfrage Ihren Domainnamen und Logindaten an.
+
+Bitte überprüfen Sie ebenfalls die ordnungsgemäße Registrierung Ihrer Domain bei der
+jeweiligen
+Registrierungsstelle. Für .de Domains http://www.denic.de.
+
+Mit freundlichen Gruessen
+webhoster.de AG
+
+(diese eMail wurde automatisch erstellt)
+
+
+
+Viele Gruesse
+ 
+ Thorsten Schneider
+webhoster.de AG
+ 
+===============================================
+
+Veränderte Bürozeiten: Sie erreichen und telefonisch ab dem 01.03.2013 in der Zeit von 9:00-17:30.
+
+NEU: Gefällt Ihnen unser Service? Dann klicken Sie auf unserer Homepage auf das Facebook "gefällt mir", bzw. google +1 Symbol.
+ 
+===============================================
+ 
+Bitte besuchen Sie auch unser neues Infoportal unter
+http://www.webhoster.info
+ 
+--
+Bitte beachten Sie, dass wir Support Anfragen nur bearbeiten koennen, wenn Ihre Anfrage folgende Angaben beinhaltet:
+ 
+- Domainname
+- Loginname
+- präzise Fehlerbeschreibung
+- ggf. eine Fehlermeldung
+ 
+Wenn Sie diese Angaben ergaenzen moechten, senden Sie uns eine eMail mit Angabe der Ticketnummer zurueck.
+ 
+webhoster.de AG eMail Support
+Südufer 54 - 59519 Möhnesee - service@webhoster.ag 
+Vorstand: Jan Schumacher , Aufsichtsrat (Vorsitz): Thorsten Schneider
+Handelsregister Arnsberg HRB 7937
+USt.ID DE255758765
+ 
+Alle Preisangaben beinhalten die gesetzliche Umsatzsteuer. Angebote sind freibleibend und unverbindlich.
+ 
+
+db: web240_getwebbed
+
+Nutzer: web24_getwebbed
+Passwort:09101966swvit
+ 
+db: web240_vs2013
+
+Nutzer: web24_vs.2013
+Passwort:09101966swvit
+
+db: web240_llds
+
+Nutzer: web24_llds
+Passwort: 09101966swvit
+
+db: web240_sabineKebir
+Passwort: 09101966swvit
+
+Nutzer: web240_dkm
+Passwort: 09101966swvit
+
+db: web240_skbr-fin
+Nutzer: web24_skbr-fin
+pwd: n9Htu2_9
+
+db: web240_vs3
+Nutzer: web24_vs3
+pwd: XzSzHYRhua9eQ?4FqGg!!T6UfMArwuhr
+
+
+db: web240_ta
+Nutzer: web24_ta
+pwd: XzSzHYRhua9eQ?4FqGg!!T6UfMArwuhr
+
+Folgende URL müssen Sie benutzen:
+
+http://vitatech-soundz.com.212-172-221-21.psa2.homepage.info/
+
+fuer llds:
+http://vitatech-soundz.com.212-172-221-21.psa2.homepage.info/losleos
+
+für phpinfo:
+http://vitatech-soundz.com.212-172-221-21.psa2.homepage.info/phpinfo.php
+
+Joomla:
+vitatech-soundz.com/getwebbed.org.2018/administrator
+Name: Hauptnutzer-2018
+username: DiesIstDerHauptNutzer2018
+
+
+Username: getwebbed.org
+pwd: 
+
+joomla vs3
+
+pwd: EQc&Kh(h
+
+Joomla ta
+
+Achtung: bei neuer Joomla-Installation muss in der angelegten htaccess-Datei 
+zeile 30+31 auskommentiert werden à la 
+
+#Options +FollowSymlinks
+#Options -Indexes
+
+admin: web240
+pwd-online: XzSzHYRhua9eQ?4FqGg!!T6UfMArwuhr
+pwd-xampp: thorbsite
+db-User stef	
+pwd: 51lm4*Om
+db: web240_ta
+Nutzer: web24_ta
+pwd: 51lm4*Om
+
+
+Viele Gruesse
+ 
+ Christian Böhm
+webhoster.de AG
+
+email:stefan@vitatech-soundz.com
+passwort:wie immer seit 2013
+weiterleitung zu info @getwebbed.org
+
+mail@vitatech-soundz.com
+passwort: wmPf434B6RXe7dg!!
+
+joomla cronjob:
+
+The front-end backup feature of Akeeba Backup is not enabled. You cannot use this scheduling method unless you enable it. Please go to Akeeba Backup's Control Panel, click on the Options button in the toolbar and enable the front-end backup feature. Do not forget to also specify a secret word of your liking. 
+

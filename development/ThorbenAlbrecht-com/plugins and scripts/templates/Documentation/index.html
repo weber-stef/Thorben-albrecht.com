@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">	
+	<title>Template documentation</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/normalize.css" rel="stylesheet" media="all">
+	<link href="css/styles.css" rel="stylesheet" media="all">
+	<link href="css/jquery.fancybox.css" rel="stylesheet" media="all">		
+	<link href='//fonts.googleapis.com/css?family=Roboto:100,400,300,500,900' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<!--[if IE 8]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<link href='css/style_ie.css' rel='stylesheet' type='text/css'>
+	<![endif]-->
+</head>
+<body>
+	<div class="wrap">
+		<aside>
+			<h1>SECTION</h1>
+			<h3>Joomla 3.8.11</h3>
+			<ul>
+				<li>
+					<a href="#technical_requirements">Technical Requirements</a>
+				</li>
+				<li>
+					<a href="#quickstart_package_installation">Installation</a>
+					<ul>
+						<li><a href="#quickstart_package_installation">Quickstart Package Installation</a></li>
+						<li><a href="#single_template_installation">Single Template installation</a></li>
+						<li><a href="#faq">FAQ</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#admin_panel">Template Features</a>
+					<ul>
+						<li><a href="#admin_panel">Admin Panel</a></li>
+						<li><a href="#module_positions">Module Positions</a></li>
+						<li><a href="#template_updating">Template Updating</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#home_page">Template Sections</a>
+					<ul>
+						<li><a href="#home_page">Home page</a></li>
+						<li><a href="#icons">Icons</a></li>
+						<li><a href="#gallery">OS IMAGEGALLERY</a></li>
+						<li><a href="#dynamic">Dynamic Scrolling Header</a></li>
+						<li><a href="#price">Our Price</a></li>
+						<li><a href="#partners">Our Partners</a></li>
+						<li><a href="#about">About Us</a></li>
+						<li><a href="#footer">Footer</a></li>
+						<li><a href="#contact">Contact</a></li>
+						<li><a href="#elements">Elements</a></li>
+					</ul>
+				</li>
+				<li><a href="#support">Support</a></li>
+			</ul>
+
+			<a class="btnsq btng" href="http://ordasoft.com/demo.php?view=pc&t=Section" title="Demo">
+			Demo
+			</a>
+
+			<a class="btnsq btno" href="http://ordasoft.com/All-Download/Section-free-multipurpose-joomla-template" title="Purchase">
+			Purchase
+			</a>
+
+			<p class="copyright">Copyright @2018, OrdaSoft. All rights reserved.</p>
+		</aside>
+		<div id="main">
+			<div class="page" id="technical_requirements">
+				<h1>Technical requirements</h1>
+				<p>Before start the installation, be sure, your systems should meet the following requirements.</p>
+				<h3>Server Requirement</h3>
+				<ul>
+					<li>PHP 5.2.17+</li>
+					<li>MySQL 5.5.3</li>
+					<li>Apache 1.3</li>
+				</ul>
+				<h3>Browser Requirements</h3>
+				<ul>
+					<li>Firefox 4+</li>
+					<li>Safari 5+</li>
+					<li>Google Chrome 10+</li>
+					<li>Opera 10+</li>
+					<li>Internet Explorer 9+</li>
+				</ul>
+				<h3>Configuration Options</h3>
+				<p>We reccomend to use the following servers in your PC to develop your site.</p>
+				<ul>
+					<li>LAMP (Linux)</li>
+					<li>WAMP (Windows)</li>
+					<li>MAMP (Macintosh)</li>
+					<li>XAMPP (Multi-platform)</li>
+				</ul>
+			</div>
+			<div class="divider"></div>	
+
+			<div class="page" id="quickstart_package_installation">
+				<h1>Quickstart Package Installation</h1>
+				<p>In All Joomla templates packages created by OrdaSoft you can find Quickstart Package. Quickstart Package allow you to install Joomla template with demo data in few clicks. We highly recommend this method of Joomla installation</p>
+
+				<h3>1. Uploading on server</h3>
+				<p>Through FileZilla or another FTP software, upload all files from QuickStart Package folder to your website directory.</p>
+
+				<h3>2. Run the Joomla 3.2.1 Installation Wizard</h3>
+				<p>Open your web browser and go to the folder that you uploaded your QuickStart Package.</p>
+
+				<h3>3. Configuration</h3>
+				<p>On the configuration page, you'll need to select  language, enter a name, site description and setup your admin details.</p>
+				<img width="580" src="images/quickstart_package_installation_step1.png"/>
+
+				<h3>4. Database</h3>
+				<p>Configure Joomla with the your database. Set Database Type to MySQLi and set the Host Name to localhost. Enter database Username,  Password and Database name, click Next.</p>
+				<img width="580" src="images/quickstart_package_installation_step2.png"/>
+
+				<h3>5. Overview</h3>
+				<p>For successful template installation you need to install sample data, select Default English (GB) Sample Data,  click Next.</p>
+				<img width="580" src="images/quickstart_package_installation_step3.png"/>
+
+				<h3>6. Finish</h3>
+				<p>Congratulation, Joomla! is now installed! The last step needed is to remove the installation directory!</p>
+				<img width="580" src="images/quickstart_package_installation_step4.png"/>
+			</div>
+
+			<div class="divider"></div>	
+
+			<div class="page" id="single_template_installation">
+				<h1>Single Template installation</h1>
+				<p>In All Joomla templates packages created by OrdaSoft you can find Joomla template file. Joomla template installation via extension should take no more than one minute. </p>
+
+				<h3>1. Enter to Admin area</h3>
+				<p>You need to go to your Joomla admin area, type in your browser http://my_joomla/administrator, enter Joomla administrator Login and Password.</p> 
+				<img width="580" src="images/joomla_template_installation_step1.png"/>
+
+				<h3>2. Upload File & Install</h3>
+				<p>From the backend of your Joomla site (administration) select Extensions -> Extension manager. Click the Browse button and select the template on your local machine</p> 
+				<img width="580" src="images/joomla_template_installation_step2.png"/>
+			</div>
+			<div class="divider"></div>
+
+			<div class="page" id="faq">
+				<h1>FAQ</h1>
+				<p><b>What is the difference between Quick Start package and single template installation?</b></p>
+				<p>Installing  Quick Start package you get the same site as at the demo version. Quick Start package contains an entire Joomla installation and already configured  Joomla template and extensions which we used on the demo site. 
+				Installing  Joomla Template via Extension manager  doesn't include sample date. You will need by your self to install and configure all extensions.</p>
+
+				<p><b>I install Quick Start package but nothing is come out, what is the problem?</b></p>
+				<p>You forgot to install sample data. For successful template installation you need to install sample data, select Default English (GB) Sample Data.</p>
+			</div>
+
+			<div class="divider"></div>
+
+			<div class="page" id="admin_panel">
+				<h1>Admin Panel</h1>
+				<p>All Joomla templates created by OrdaSoft based on OS blank template. Customoze logo, fonts, links etc., via template admin area.</p>
+				<p>Go to Extensions > Template Manager and select installed template</p>
+				<h3>Body</h3>
+				<p>In Template administration panel you can select color and one of provided pattern for body, available settings:</p>
+				<ul>
+					<li>Body Color</li>
+					<li>Body pattern</li>
+				</ul>
+				<p><b>How to uppload my own body pattern?</b></p>
+				<p>To do this, you must upload new pattern at your template via FTP into the folder templates/your_template/images.Then you need to declare a new pattern in the templateDetails.xml 
+				file is in the folder templates/your_template/.There you should find the following line of code:</p>
+				<pre>
+					<code><span><</span>field name="btlabout" type="btlabout" description="" label="" /><br>   <span><</span>field name="body_color" type="text" label="Body Color:" description="Example:    #000000" default="#f8f8f8"><span><</span>/field><br>      <span><</span>field name="body_background" type="list" label="Body pattern:"><br>      <span><</span>option value="">None<span><</span>/option><br>      <span><</span>option value="01.png">Stone<span><</span>/option><br>      <span><</span>option value="file name of your pattern">Name of your pattern<span><</span>/option></code>
+				</pre>
+				<p>In the above, 'file name of your pattern' - the name of file your new pattern (for example stripe.png) and 'Name of your pattern' - pattern name to be displayed in list of all pattern in admin area.</p>
+				<h3>Logo</h3>
+				<p>Uppload your own logo in few simple steps. Press to "Select" button and in the popup window, select the logo, available settings:</p>
+				<ul>
+					<li>Uppload logo</li>
+					<li>Logo link</li>
+					<li>Logo width</li>
+					<li>Logo height</li>
+				</ul>
+				<h3>Links</h3>
+				<p>Change links color and style for Body, Top Menu, Main Menu, Footer Menu. Available settings:</p>
+				<ul>
+					<li>Links Color</li>
+					<li>Links hover color</li>
+					<li>Links underline</li>
+					<li>Links hover underline</li>
+				</ul>
+				<h3>Typography</h3>
+				<p>OrdaSoft themes use Google Fonts. Google Fonts provides high-quality fonts that you can include in your pages using the Google Fonts API. Benefits of the Google Fonts API include:</p>
+				<ul>
+					<li>A choice of high quality open source fonts.</li>
+					<li>Works in most browsers.</li>
+					<li>Extremely easy to use.</li>
+				</ul>
+				<p>In template added most popular Google fonts and You can specify your own font for:  
+				Body, Body Links, Top Menu, Main Menu, Footer, h1 - h6.</p>
+				<p><b>How to add new font from Google?</b></p>
+				<p>You need to get the connection code font on the <a target="blank" href="http://www.google.com/fonts">Google Fonts site.</a>This code should look like:</p>
+				<pre>
+					<code><span><</span>link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'></code>
+				</pre>
+				<p>Then you should to insert this generated code before closing tag <span><</span>/head> in index.php file in the folder templates/your_template/.</p>
+				<p>For the emergence of the new font in the font list in admin area, add the following code in the templateDetails.xml file is in the folder templates/your_template/:</p>
+				<pre>
+					<code><span><</span>field name="h1_font" type="list" label="h1 Font:" default="Arial, sans-serif"><br>   <span><</span>option value="Abel, sans-serif">Abel<span><</span>/option><br>   <span><</span>option value="Raleway, sans-serif">Raleway<span><</span>/option>
+					</code>
+				</pre>
+				<p>This code has added a new font 'Raleway' for the tag H1 to the list of fonts in admin area.</p>
+			</div>
+
+			<div class="divider"></div>
+
+			<div class="page" id="module_positions">
+				<h1>Module positions</h1>
+				<p>Module positions are placeholders in a template. They identify positions within the template and tell the Joomla! application where to place output from modules assigned to a particular position. The template designer has complete control over module positions, creating variations between templates and the respective Joomla! default positions assigned to modules in the installation sample data.</p>
+				<p>For example, the module position POSITION-1 could be defined to be on the left side of the template to display a site navigation menu. So if a module is assigned the POSITION-1 position, it will be displayed wherever the designer puts that Left module position - not necessarily the left side of the page.
+				</p>
+				<h3>templateDetails.xml</h3>
+				<p>The templateDetails.xml file contains all the installation and core information for a template, including the module positions it utilizes and displays. Here is a brief list of the commonly used names for the various module positions.</p>
+				<pre>
+					<code><span><</span>positions><br>   <span><</span>position>Search<span><</span>/position><br>   <span><</span>position>Top1<span><</span>/position><br>   <span><</span>position>Top2<span><</span>/position><br>   <span><</span>position>Top3<span><</span>/position><br>   <span><</span>position>Top4<span><</span>/position><br>   <span><</span>position>Mainmenu<span><</span>/position><br>   <span><</span>position>Breadcrumbs<span><</span>/position><br>   <span><</span>position>Slideshow<span><</span>/position><br>   <span><</span>position>location_map<span><</span>/position><br>   <span><</span>position>Feature1<span><</span>/position><br>   <span><</span>position>Feature2<span><</span>/position>                                                     <span><</span>position>Feature3<span><</span>/position><br>   <span><</span>position>ContentTop1<span><</span>/position><br>   <span><</span>position>ContentTop2<span><</span>/position><br>   <span><</span>position>SidebarLeft<span><</span>/position><br>   <span><</span>position>SidebarRight<span><</span>/position><br>   <span><</span>position>ContentBottom1<span><</span>/position><br>   <span><</span>position>ContentBottom2<span><</span>/position><br>   <span><</span>position>Bottom1<span><</span>/position><br>   <span><</span>position>Bottom2<span><</span>/position><br>   <span><</span>position>Bottom3<span><</span>/position><br>   <span><</span>position>Bottom4<span><</span>/position><br>   <span><</span>position>footerMenu<span><</span>/position><br>   <span><</span>position>Footer1<span><</span>/position><br>   <span><</span>position>Footer2<span><</span>/position><br>   <span><</span>position>Footer3<span><</span>/position><br>   <span><</span>position>Footer4<span><</span>/position><br>   <span><</span>position>Debug<span><</span>/position><br>   <span><</span>position>position-0<span><</span>/position><br>   <span><</span>position>position-1<span><</span>/position><br>   <span><</span>position>position-2<span><</span>/position><br>   <span><</span>position>position-3<span><</span>/position><br>   <span><</span>position>position-4<span><</span>/position><br>   <span><</span>position>position-5<span><</span>/position><br>   <span><</span>position>position-6<span><</span>/position><br>   <span><</span>position>position-7<span><</span>/position><br>   <span><</span>position>position-8<span><</span>/position><br>   <span><</span>position>position-9<span><</span>/position><br>   <span><</span>position>position-10<span><</span>/position><br>   <span><</span>position>position-11<span><</span>/position><br>   <span><</span>position>position-12<span><</span>/position><br>   <span><</span>position>position-13<span><</span>/position><br>   <span><</span>position>position-14<span><</span>/position><br><span><</span>/positions>
+					</code>
+				</pre>
+				<p>Although these are commonly used, it is up to the template developer to choose both a module position name and an accompanying display style. The addition of module positions, as displayed above, is implemented in between the <span><</span>positions> and <span><</span>/positions> tags. In between those tags in the templateDetails.xml file, add the name of the module position in between a set of <span><</span>position> and <span><</span>/position> tags.</p>
+				<h3>Use and implementation</h3>
+				<p>A Joomla! template displays a set of modules added to a specific position using the <span><</span>span>jdoc:include /> statement shown below (for further information about <span><</span>span>jdoc:include /></p>
+				<pre>
+					<code><span><</span>jdoc:include type="modules" name="name of module position" style="xhtml" /></code>
+				</pre>
+				<h3>Visualization</h3>
+				<p>It's possible to visualize all modules set on a template by calling the "tp=1" query string on the front-end.</p>
+				<pre>
+					<code>http://www.yourdomain.com/index.php?tp=1</code>
+				</pre>
+			</div>
+
+			<div class="divider"></div>
+
+			<div class="page" id="template_updating">
+				<h1>Template updating</h1>
+				<h3>Backup your Joomla site</h3>
+				<p>To help ensure that you don't lose your Joomla database or files in process updating template you should make backup.</p>
+				<h3>Uninstall your Joomla template</h3>
+				<p>Go to: Joomla Admin Area -> Extensions -> Extension Manager. Open the Manage tab. Select Template from the Select Type drop-down menu. Search for the chosen template in the filtered results and click on the check box besides it. Find the Uninstall icon in the upper right Joomla menu and click on it to completely remove the chosen template.</p>
+				<h3>Install your new Joomla template</h3>
+				<p>Log into the back-end of your site (www.your-site.com/administrator/). Go to: Joomla Admin Area -> Extensions -> Extension Manager. You see the page "Extension Manager". From here you can install your Templates, Plugins, Modules, Components and Languages. You have three options:</p>
+				<ul>
+					<li>Upload Package File - (select a package from your PC, upload and install it)</li>
+					<li>Install from Directory - (enter the path where the package is located on your webserver)</li>
+					<li>Install from URL - (enter the URL to the package)</li>
+				</ul>	
+				<p>Option 3 does everything for you, your environment needs to be properly configured to allow this. Option 1 requires you to download the extension to your PC. Option 2 requires you to unzip and move the folders/files to your webserver. All option require the webserver to have write access to the webspace.</p>
+				<p>Choose the first method: Upload Package File. Select the package from your PC and click the button "Upload File & Install".</p>
+			</div>
+
+			<div class="divider"></div>
+
+			<div class="page" id="home_page">
+				<h1>Home page</h1>
+				<h3>1. Header social links</h3>
+				<p>Social icons you can change via template admin area, go to:
+				Joomla Admin Area -> Extensions -> Templates -> Styles ->  OrdaSoftTemplate-SectionTemplate
+				 -> Social links.</p>
+				 <a class="fancybox" rel="group" href="images/home_page_social_links_1.png">
+					<img width="580" src="images/home_page_social_links_1.png" alt="Home Page Joomla Ordasoft" />
+				</a>
+				<a class="fancybox" rel="group" href="images/home_page_social_links_2.png">
+					<img width="580" src="images/home_page_social_links_2.png" alt="Joomla Template admin area" />
+				</a>
+				<a class="fancybox" rel="group" href="images/home_page_social_links_3.png">
+					<img width="580" src="images/home_page_social_links_3.png" alt="Joomla social links" />
+				</a>
+
+				 
+				<h3>2. Header phone</h3>
+				<p>To manage this section you need go to: Joomla Admin Area -> Extensions -> Modules -> Top phone. Delete the old text and enter a new one.
+				</p>
+				<a class="fancybox" rel="group" href="images/home_page_tel_1.png">
+					<img width="580" src="images/home_page_tel_1.png" alt="Home Page phone" />
+				</a>
+				<a class="fancybox" rel="group" href="images/home_page_tel_2.png">
+					<img width="580" src="images/home_page_tel_2.png" alt="Template admin area" />
+				</a>
+				<a class="fancybox" rel="group" href="images/home_page_tel_3.png">
+					<img width="580" src="images/home_page_tel_3.png" alt="Template modules" />
+				</a>
+				 
+				<h3>3. Search section</h3>
+				<p>To manage search field you need go to: Joomla admin area  -> Extensions -> Modules -> Search.</p>
+				<a class="fancybox" rel="group" href="images/home_page_search_1.png">
+					<img width="580" src="images/home_page_search_1.png" alt="Home Page search" />
+				</a>
+				<a class="fancybox" rel="group" href="images/home_page_search_2.png">
+					<img width="580" src="images/home_page_search_2.png" alt="Joomla Template search manage" />
+				</a>
+		
+				<h3>4. Business Logistics section</h3>
+				<p>To manage this section you need go to: Joomla admin area -> Extensions -> Modules -> Business logistics. Delete the old title and enter a new one.</p>
+
+			    <h3>5. Business Logistics section background image</h3>	
+				<p>To change the background image, go to templates -> ordasofttemplate-sectiontemplate -> images. Place your image with the name "bg.png" to this folder and overwrite the old image.</p>
+				<a class="fancybox" rel="group" href="images/home_page_section_1.png">
+					<img width="580" src="images/home_page_section_1.png" alt="Home Page background image" />
+				</a>
+				<a class="fancybox" rel="group" href="images/home_page_section_2.png">
+					<img width="580" src="images/home_page_section_2.png" alt="Joomla modules" />
+				</a>
+				<a class="fancybox" rel="group" href="images/home_page_section_3.png">
+					<img width="580" src="images/home_page_section_3.png" alt="Template modules editor" />
+				</a>
+				
+			</div>
+
+			<div class="divider"></div>
+
+			<div class="page" id="icons">
+				<h1>Icons </h1>
+				<h3>1. Icons  section</h3>
+			    <p>To change this section you need go to: Joomla admin area -> Extensions -> Modules -> Icons. Delete the old title and enter a new one.</p>
+			    <a class="fancybox" rel="group" href="images/icons_section_1.png">
+					<img width="580" src="images/icons_section_1.png" alt="Joomla icons" />
+				</a>
+				<a class="fancybox" rel="group" href="images/icons_section_2.png">
+					<img width="580" src="images/icons_section_2.png" alt="Joomla admin area" />
+				</a>
+				<a class="fancybox" rel="group" href="images/icons_section_3.png">
+					<img width="580" src="images/icons_section_3.png" alt="Joomla editor" />
+				</a>
+			</div>
+
+			<div class="divider"></div>
+
+			<div class="page" id="gallery">
+				<h1>OS IMAGEGALLERY</h1>
+				<h3>1. OS IMAGEGALLERY title</h3>
+			    <p>To change this section you need go to: Joomla admin area -> Extensions -> Modules -> OS IMAGEGALLERY. Delete the old title and enter a new one.</p>
+			    <a class="fancybox" rel="group" href="images/gallery_section_1.png">
+					<img width="580" src="images/gallery_section_1.png" alt="Joomla OS galery" />
+				</a>
+				<a class="fancybox" rel="group" href="images/gallery_section_2.png">
+					<img width="580" src="images/gallery_section_2.png" alt="OS galery title" />
+				</a>
+				<a class="fancybox" rel="group" href="images/gallery_section_3.png">
+					<img width="580" src="images/gallery_section_3.png" alt="OS galery editor" />
+				</a>
+				<h3>2. OS IMAGEGALLERY images</h3>
+			    <p>To change the gallery,go to Joomla Admin Area -> Components -> OS Gallery. To add a new image click UPLOAD A FILE or place the images by drag and drop.</p>
+			    <a class="fancybox" rel="group" href="images/gallery_section_4.png">
+					<img width="580" src="images/gallery_section_4.png" alt="OS galery image" />
+				</a>
+			</div>
+
+			<div class="divider"></div>
+
+			<div class="page" id="dynamic">
+				<h1>Dynamic Scrolling Header</h1>
+				<h3>1. Dynamic Scrolling Header section </h3>
+				<p>To manage this section you need go to: Joomla Admin Area -> Extensions -> Modules -> Dynamic Scrolling Header.
+				Delete the old titles and text and enter a new one.</p>
+				<a class="fancybox" rel="group" href="images/dynamic_section_1.png">
+					<img width="580" src="images/dynamic_section_1.png" alt="Joomla section" />
+				</a>
+				<a class="fancybox" rel="group" href="images/dynamic_section_2.png">
+					<img width="580" src="images/dynamic_section_2.png" alt="Template admin area" />
+				</a>
+				<a class="fancybox" rel="group" href="images/dynamic_section_3.png">
+					<img width="580" src="images/dynamic_section_3.png" alt="admin area manage" />
+				</a>
+
+			</div>
+
+			<div class="divider"></div>
+
+			<div class="page" id="price">
+				<h1>Our Price</h1>
+				<h3>1. Our Price section</h3>
+				<p>To manage this section you need go to: Joomla Admin Area -> Extensions -> Modules -> Our Price.
+				Delete the old titles and text and enter a new one.</p>
+				<a class="fancybox" rel="group" href="images/price_section_1.png">
+					<img width="580" src="images/price_section_1.png" alt="Joomla Price" />
+				</a>
+				<a class="fancybox" rel="group" href="images/price_section_2.png">
+					<img width="580" src="images/price_section_2.png" alt="Template" />
+				</a>
+				<a class="fancybox" rel="group" href="images/price_section_3.png">
+					<img width="580" src="images/price_section_3.png" alt="Joomla editor" />
+				</a>
+
+			</div>
+
+			<div class="divider"></div>
+
+			<div class="page" id="partners">
+				<h1>Our Partners</h1>
+				<h3>1. Our Partners section</h3>
+				<p>To manage Our Partners section, go to Joomla Admin area -> Extensions -> Modules -> Our Partners. Click on "Toggle editor". To change the background image, go to "your folder name" -> images. Place your images in this folder and rename it in the editor.</p>
+				<a class="fancybox" rel="group" href="images/partners_section_1.png">
+					<img width="580" src="images/partners_section_1.png" alt="Joomla Template" />
+				</a>
+				<a class="fancybox" rel="group" href="images/partners_section_2.png">
+					<img width="580" src="images/partners_section_2.png" alt="Template images" />
+				</a>
+				<a class="fancybox" rel="group" href="images/partners_section_3.png">
+					<img width="580" src="images/partners_section_3.png" alt="Joomla Toggle editor" />
+				</a>
+
+			</div>
+
+			<div class="divider"></div>
+
+			<div class="page" id="about">
+				<h1>Why Choose Us/Advantages/About us</h1>
+				<h3>1. Why Choose Us/Advantages/About us sections</h3>
+				<p>To manage this sections, go to Joomla Admin area -> Extensions -> Modules -> Why Choose Us/Advantages/About us. Delete the old text and enter a new one.</p>
+				<a class="fancybox" rel="group" href="images/about_us_section_1.png">
+					<img width="580" src="images/about_us_section_1.png" alt="Joomla Ordasoft about" />
+				</a>
+				<a class="fancybox" rel="group" href="images/about_us_section_2.png">
+					<img width="580" src="images/about_us_section_2.png" alt="Template modules" />
+				</a>
+				<a class="fancybox" rel="group" href="images/about_us_section_3.png">
+					<img width="580" src="images/about_us_section_3.png" alt="section manage" />
+				</a>
+
+			</div>
+
+			<div class="divider"></div>
+
+
+			<div class="page" id="recommended">
+				<h1>Recommended</h1>
+				<h3>1. Recommended section</h3>
+				<p>To manage this sections, go to Joomla Admin area -> Extensions -> Modules -> Recommended. Click on "Toggle editor". To change the background image, go to "your folder name" -> images. Place your images in this folder and rename it in the editor.</p>
+				<a class="fancybox" rel="group" href="images/recommended_section_1.png">
+					<img width="580" src="images/recommended_section_1.png" alt="Joomla logo" />
+				</a>
+				<a class="fancybox" rel="group" href="images/recommended_section_2.png">
+					<img width="580" src="images/recommended_section_2.png" alt="Joomla admin area" />
+				</a>
+				<a class="fancybox" rel="group" href="images/recommended_section_3.png">
+					<img width="580" src="images/recommended_section_3.png" alt="admin area editor" />
+				</a>
+
+			</div>
+			<div class="divider"></div>
+
+			<div class="page" id="footer">
+				<h1>Footer</h1>
+				<h3>1. Footer menu titles</h3>
+				<p>To manage Footer menu titles, go to Joomla Admin area ->  Extensions -> Modules -> Support/Contact Us/Site policies/Company. Delete the old text and enter a new one.</p>
+				<a class="fancybox" rel="group" href="images/footer_section_1.png">
+					<img width="580" src="images/footer_section_1.png" alt="Joomla footer Ordasoft" />
+				</a>
+				<a class="fancybox" rel="group" href="images/footer_section_2.png">
+					<img width="580" src="images/footer_section_2.png" alt="Joomla footer title" />
+				</a>
+				<a class="fancybox" rel="group" href="images/footer_section_3.png">
+					<img width="580" src="images/footer_section_3.png" alt="Extensions modules" />
+				</a>
+				<a class="fancybox" rel="group" href="images/footer_section_4.png">
+					<img width="580" src="images/footer_section_4.png" alt="modul title" />
+				</a>
+
+				<h3>2. Footer menu items</h3>
+				<p>To manage Footer menu items, go to Joomla Admin area ->  Menus ->  Footer menu 1-4. You can rename the link and change their addresses.</p>
+				<a class="fancybox" rel="group" href="images/footer_section_5.png">
+					<img width="580" src="images/footer_section_5.png" alt="menus footer menu" />
+				</a>
+				
+
+			</div>
+			<div class="divider"></div>
+
+
+			<div class="page" id="contact">
+				<h1>Contact</h1>
+				<p>To manage this section you need go to: Joomla Admin Area -> Components -> Forms -> Forms -> Contact Us.</p>
+				<a class="fancybox" rel="group" href="images/contact_1.png">
+					<img width="580" src="images/contact_1.png" alt="Joomla contact form"/>
+				</a>
+				<a class="fancybox" rel="group" href="images/contact_2.png">
+					<img width="580" src="images/contact_2.png" alt="Joomla components forms"/>
+				</a>
+				<a class="fancybox" rel="group" href="images/contact_3.png">
+					<img width="580" src="images/contact_3.png" alt="forms editor"/>
+				</a>
+			</div>
+
+			<div class="divider"></div>
+
+			<div class="page" id="elements">
+				<h1>Elements</h1>
+				<p>To manage this section you need go to: Joomla Admin Area  ->  Articles and choose Bootstrap elements, which you prefer. (Panel, Icons, Progress bars and ect.)</p>
+				<a class="fancybox" rel="group" href="images/elements_1.png">
+					<img width="580" src="images/elements_1.png" alt="Joomla elements"/>
+				</a>
+				<a class="fancybox" rel="group" href="images/elements_2.png">
+					<img width="580" src="images/elements_2.png" alt="Joomla content"/>
+				</a>
+			</div>
+
+			<div class="divider"></div>
+
+			<div class="page" id="support">
+				<h1>Support</h1>
+				<p>Support of all templates  is carried out on <a target="blank" href="http://ordasoft.com/Forum/OrdaSoft-template-Support/">OrdaSoft forum</a></p>
+				<p>Created: 7/03/2014</p>
+				<ul>
+					<li>latest Update: 17/08/2017</li>
+					<li>By OrdaSoft</li> 
+					<li>http://ordasoft.com/</li>
+				</ul>
+			</div>
+
+			<div class="divider"></div>
+
+		</div>		
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/animatescroll.js"></script>	
+	<script src="js/jquery.fancybox.js"></script>	
+
+	<script>
+	jQuery(document).ready(function(){
+            jQuery('aside ul li a').click(function(event){
+            	event.preventDefault();
+            	var tmp=jQuery(this).attr('href');
+            	jQuery(tmp).animatescroll();
+            })
+		jQuery(".fancybox").fancybox();
+      })
+	</script>
+</body>
+</html>

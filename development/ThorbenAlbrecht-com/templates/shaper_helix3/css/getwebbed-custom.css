@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* Custom CSS getwebbed.org */
+
+/*Smart-Slider usinf extreme*/
+/**
+* @author    JoomShaper http://www.joomshaper.com
+* @copyright Copyright (C) 2010 - 2013 JoomShaper
+* @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2
+*/
+* {
+	background-color: #cccccc !important;
+	border: none !important;
+}
+
+/*Eigene Smart-Slider-Einstellungen*/
+@media (min-width:1200px) {
+.nivoSlider {
+ position:relative;
+ width:  100% !important;
+ height:16vw !important;
+ overflow: hidden;
+ margin-right: auto;
+ margin-left: auto;/* margin-left: -15px !important;*/
+}
+}
+@media (max-width:1200px) {
+.nivoSlider {
+ position:relative;
+ width: 100% !important;
+ height:16vw !important;
+ overflow: hidden;
+ margin-right: auto;
+ margin-left: auto;/* margin-left: -15px !important;*/
+}
+}
+/*Ende Eigene Smart-Slider-Einstellungen*/
+.sp-megamenu-parent > li > a {
+	font-family:PT sans !important;
+	font-size:1.2em !important;
+}
+sp-dropdown-inner ul.sp-dropdown-items li.sp-menu-item a {
+	background-color: transparent !important;
+	color: #fff;
+}
+.sp-megamenu-parent .sp-dropdown li.sp-menu-item >a:hover {
+	display: block;
+	padding: 10px;
+	color: #fff;
+	cursor: pointer;
+	text-decoration:underline;
+}
+.sp-megamenu-parent > li.active > a, .sp-megamenu-parent > li:hover > a {
+	color: #000 !important;
+}
+img, iframe {
+	float: left;
+	margin:0 20px 0 0px;
+	border:1px solid white !important;
+	border-color:#fff;
+	box-shadow: 10px 10px 8px #888888;
+}
+.sp-megamenu-parent > li > a, .sp-megamenu-parent > li > span {
+	display: inline-block;
+	padding: 0 15px;
+	line-height: 90px;
+	font-size: 1.2vw !important;
+	text-transform: capitalize !important;
+	letter-spacing: 1px;
+	color: #000;
+	margin: 0;
+}
+body {
+/*	 filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#ffffff, endColorstr=#000000);
+	background-image:-moz-linear-gradient(left, #000000 0%,#000000 9%, #ffffff 10%, #ffffff 90%,#000000 91%  ,#000000 100%);
+	background-image:linear-gradient(left, #000000 0%,#000000 9%, #ffffff 10%, #ffffff 90%,#000000 91%  ,#000000 100%);
+	background-image:-webkit-linear-gradient(left, #000000 0%, #ffffff 10%, #ffffff 90%, #000000 100%);
+	background-image:-o-linear-gradient(left, #000000 0%,#000000 9%, #ffffff 10%, #ffffff 90%,#000000 91%  ,#000000 100%);
+	background-image:-ms-linear-gradient(left, #000000 0%,#000000 9%, #ffffff 10%, #ffffff 90%,#000000 91%  ,#000000 100%);
+	background-image:-webkit-gradient(linear, right left, right bottom, color-stop(0%, #000000), color-stop(10%, #ffff), color-stop(90%, #000000), color-stop(100%, #000000));*/
+	background-color: #cccccc !important;
+}
+.sp-default-logo {
+	border: none !important;
+	box-shadow: none !important;
+}
+#sp-header {
+	box-shadow: none !important;
+	background-color: #cccccc !important;
+}
+#sp-header .logo {
+    display: inline-block;
+    height: 90px;
+    display: table;
+    -webkit-transition: all 400ms ease;
+    transition: all 400ms ease;
+    margin-top: 40px !important;
+	z-index: 100;
+}
+.sp-megamenu-wrapper {
+    margin-left: -10px !important;
+   /* margin-top: -20px !important;*/
+}
